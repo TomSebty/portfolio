@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Is Tom Sebty</title>
-
+    
     <link rel="stylesheet" href="./src/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/83758b0321.js"></script>
+    <script src="src/js/main.js"></script>
 </head>
 <body>
     <header class="header">
@@ -14,12 +17,38 @@
         <h3>This is who I am</h3>
 
         <div>
-            <a href="github.com"><img class="pr-link" src="src/images/github.png"></a>
+            <a href="https://github.com/TomSebty"><img class="pr-link" src="src/images/github.png"></a>
             <a href="linkdin.com"><img class="pr-link" src="src/images/linkdin.png"></a>
         </div>
+
+        <div class="scroll-button-div">
+            <button type=button class="scroll-button"><i class="fa fa-arrow-down arrow1" aria-hidden="true"></i></button>
+        </div>
+
     </header>
-    <section class="content">
+    <section class="content" id="portfolio">
         <h2 class="portfolio-title">Portfolio</h2>
+        <section class="boxes">
+            <div>
+                <img class="box" src="src/images/alive.jpeg">
+            </div>
+        </section>
+    </section>
+    <section class="stacks">
+        <h2 class="portfolio-title">Technologies</h2>
+        <section>
+            <img class="stack" src="src/images/techs/csharp.png">
+            <img class="stack" src="src/images/techs/python.png">
+            <img class="stack" src="src/images/techs/html.png">
+            <img class="stack" src="src/images/techs/css.png">
+            <img class="stack" src="src/images/techs/mysql.png">
+            <img class="stack" src="src/images/techs/mongodb.png">
+            <img class="stack" src="src/images/techs/git.png">
+            <img class="stack" src="src/images/techs/ansible.png">
+            <img class="stack" src="src/images/techs/docker.png">
+            <img class="stack" src="src/images/techs/nginx.png">
+            <img class="stack" src="src/images/techs/openstack.png">
+        </section>
     </section>
 </body>
 </html>

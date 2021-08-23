@@ -18,6 +18,10 @@ body {
     height: 100vh;
 }
 
+.stacks {
+    height: 100vh;
+}
+
 .title {
     left: 0;
     line-height: 200px;
@@ -25,7 +29,7 @@ body {
     position: absolute;
     text-align: center;
     top: 50%;
-    width: 100%;
+    width: 95%;
 }
 
 h3 {
@@ -43,8 +47,67 @@ h3 {
 }
 
 .portfolio-title {
-    top: 50%;
+    top: 60%;
     left: 0;
     text-align: center;
-
 }
+
+/* .boxes {
+
+} */
+
+.box {
+    width: 50vh;  
+}
+
+.stacks {
+    text-align: center;
+}
+
+.stack {
+    width: 15%;
+}
+
+.scroll-button-div {
+    top: 90%;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    width: 10vh;
+}
+
+.scroll-button {
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+}
+/* 
+.scroll-button:hover {
+    animation: rol 1s ease-in-out;
+}
+
+@keyframes rol {
+    0%,
+    100% {
+        transform: rotate(360deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+} */
+
+.arrow1 {
+    animation: slide1 2s ease-in-out infinite;
+  }
+
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(0, 10px);
+    }
+  }
