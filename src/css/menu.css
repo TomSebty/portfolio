@@ -30,14 +30,14 @@
 }
 
 @media (max-width: 500px){
-  .contact-icons { 
+  .top-nav > .contact-icons { 
       display: none;
   }
   .hamburger {
       display: inline;
   }
   .pr-link {
-    margin: 0 0px;
+    margin: 5px 0px;
   }
 }
 
@@ -96,6 +96,15 @@
   justify-content: space-between;
 }
 
-.hamburger input:checked ~ .contact-icons > .pr-link {
-  background-color: red;
+.hamburger .contact-icons a .pr-link {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  transform: scale(0);
+  transition: transform 500ms ease-in-out;
+}
+
+.hamburger input:checked ~ .contact-icons a .pr-link {
+  transform: scale(1);
+  margin: 5px 0;
 }
